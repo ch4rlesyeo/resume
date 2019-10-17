@@ -1,5 +1,9 @@
 import React from 'react'
 
+import '../Progress'
+import Header from '../Header'
+import { ContentView } from './Styled'
+
 export default class extends React.Component {
   constructor (props) {
     super(props)
@@ -16,12 +20,22 @@ export default class extends React.Component {
   }
 
   render () {
+    const { useHeader, children } = this.props
     const { mounted } = this.state
 
     if (!mounted) {
       return null
     }
 
-    return this.props.children
+    return (
+      <React.Fragment>
+        {useHeader && (
+          <Header />
+        )}
+        <ContentView>
+          {children}
+        </ContentView>
+      </React.Fragment>
+    )
   }
 }

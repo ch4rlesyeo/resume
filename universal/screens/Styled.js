@@ -7,7 +7,10 @@ export const GlobalStyle = createGlobalStyle`
     left: 0;
     top: 0;
     bottom: 0;
-    overflow: auto;
+  }
+
+  * {
+    -webkit-overflow-scrolling: touch;
   }
 
   body {
@@ -61,7 +64,7 @@ export const GlobalStyle = createGlobalStyle`
     right: 0px;
     width: 100px;
     height: 100%;
-    box-shadow: 0 0 10px #60d, 0 0 5px #60d;
+    box-shadow: 0 0 10px black, 0 0 5px black;
     opacity: 1.0;
 
     -webkit-transform: rotate(3deg) translate(0px, -4px);
@@ -85,8 +88,8 @@ export const GlobalStyle = createGlobalStyle`
     visibility: collapse;
 
     border: solid 2px transparent;
-    border-top-color: #29d;
-    border-left-color: #29d;
+    border-top-color: black;
+    border-left-color: black;
     border-radius: 50%;
 
     -webkit-animation: nprogress-spinner 400ms linear infinite;

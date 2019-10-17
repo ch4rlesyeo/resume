@@ -11,27 +11,36 @@ export const Container = styled.div`
 export const CenterView = styled.div`
   display: table-cell;
   vertical-align: middle;
-  text-align: center;
 `
 
 export const Name = styled.div`
-  font-size: 24.222px;
+  font-size: 28.222px;
   font-weight: 600;
   letter-spacing: 0.3px;
+  text-align: center;
 `
 
 export const Navigations = styled.div`
-  margin-top: 30px;
+  width: 512px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
 
   a {
-    color: rgb(150, 160, 170);
-    font-size: 16.222px;
-    letter-spacing: 0.1px;
-    margin: 0 25px;
+    color: rgb(160, 170, 180);
+    font-size: 17.222px;
+    /* font-weight: 600; */
+    letter-spacing: 0.3px;
 
     &:hover {
       transition: 0.1s;
       color: rgb(16, 143, 233);
     }
+  }
+
+  @media screen and (max-width: 512px) {
+    width: 100%;
   }
 `

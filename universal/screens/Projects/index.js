@@ -25,7 +25,7 @@ class ProjectsView extends Component {
           )
         })}
         <MoreToCome>
-          Interested to collaborate? <Link href='/contacts' passHref><a>Lets chat</a></Link>
+          Interested to collaborate? <Link href='/contact' passHref><a>Lets chat</a></Link>
         </MoreToCome>
       </Container>
     )

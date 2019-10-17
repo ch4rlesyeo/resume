@@ -71,7 +71,7 @@ export const experiences = [{
     name: 'Freelancing',
     role: 'Fullstack Developer',
     descriptions: [{
-      text: 'Develop medical services systems for KPJ hospitals in Johor Bahru to their enhance operations and sales.'
+      text: 'Develop medical services systems for KPJ hospitals in Johor Bahru to improve and enhance operations and sales.'
     }, {
       text: 'Building mobile apps with React Native and Expo with Typescript. Deploy to Expo for prototyping purpose.'
     }, {

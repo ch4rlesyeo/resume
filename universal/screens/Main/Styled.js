@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: table;
   position: absolute;
   top: 50px;
-  height: 85%;
+  height: 80%;
   width: 100%;
 `
 

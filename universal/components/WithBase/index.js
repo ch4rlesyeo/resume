@@ -32,7 +32,7 @@ export default class extends React.Component {
         {useHeader && (
           <Header />
         )}
-        <ContentView>
+        <ContentView notop={!useHeader}>
           {children}
         </ContentView>
       </React.Fragment>

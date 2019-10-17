@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@screens/*": ["universal/screens/*"],
+      "@utils/*": ["universal/utils/*"],
+      "@hooks/*": ["universal/hooks/*"],
+      "@components/*": ["universal/components/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
+}

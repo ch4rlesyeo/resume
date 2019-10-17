@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "resume",
+  "alias": "im.charles.now.sh",
+  "builds": [{
+    "src": "package.json",
+    "use": "@now/next@canary"
+  }]
+}

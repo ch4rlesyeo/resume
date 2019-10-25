@@ -32,21 +32,21 @@ export const experiences = [{
     descriptions: [{
       text: 'Develop an online import/export forwarding booking system for a logistic company, to facilitate operations teams from forwarding to liner to improve their operation efficiencies, financing and reduce human errors.'
     }, {
-      text: 'Build fully in JavaScript using React.JS with Next.JS for front-end and Node.JS with GraphQL and Koa.JS for backend.'
+      text: 'Built fully in JavaScript using React.JS with Next.JS for front-end and Node.JS with GraphQL and Koa.JS for backend.'
     }, {
-      text: 'Develop a mobile app for haulage drivers to pick up assigned jobs and manage trailers and container collections, fully is JavaScript using React Native.'
+      text: 'Developed a mobile app for haulage drivers to pick up assigned jobs and manage trailers and container collections, fully is JavaScript using React Native.'
     }, {
-      text: 'Uses GraphQL with Apollo-client to handle network fetches, caches and state management across the web apps seamlessly without extra writing our own handlers.'
+      text: 'Used GraphQL with Apollo-client to handle network fetches, caches and state management across the web apps seamlessly without extra writing our own handlers.'
     }, {
-      text: 'Uses Redux and Context to handle and share global states across components to develop interactive features with ease.'
+      text: 'Used Redux and Context to handle and share global states across components to develop interactive features with ease.'
     }, {
-      text: 'Uses UI design libraries such as Ant Design, Ant Design Mobile (for RN) and Material Design as base UI components for development, Styled-Components for custom component stylings and overide stylings.'
+      text: 'Used UI design libraries such as Ant Design, Ant Design Mobile (for RN) and Material Design as base UI components for development, Styled-Components for custom component stylings and overide stylings.'
     }, {
-      text: 'Uses GraphQL and KoaJS for backend with Apollo server, with resolvers to map routes to controllers for queries and mutations with ease.'
+      text: 'Used GraphQL and KoaJS for backend with Apollo server, with resolvers to map routes to controllers for queries and mutations with ease.'
     }, {
-      text: 'Uses Sequelize to serve as an ORM to construct models and communicate with database.'
+      text: 'Used Sequelize to serve as an ORM to construct models and communicate with database.'
     }, {
-      text: 'Uses Passport.JS to authenticate JWTokens to handle API request authentications and uses SevenBoom on top of GraphQL to handle HTTP responses.'
+      text: 'Used Passport.JS to authenticate JWTokens to handle API request authentications and uses SevenBoom on top of GraphQL to handle HTTP responses.'
     }]
   }
 }, {
@@ -60,7 +60,7 @@ export const experiences = [{
     descriptions: [{
       text: 'Develop an operation management and configuration dashboard to support teams across companies to facilitate and improve operation efficiencies, monitor deployments and their statuses and data visualisations using D3.'
     }, {
-      text: 'Built fully in JavaScript using React.JS, Ant desigin and D3.JS on top of TypeScript.'
+      text: 'Built fully in JavaScript using React.JS, Ant design and D3.JS on top of TypeScript.'
     }]
   }
 }, {

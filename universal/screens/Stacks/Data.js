@@ -13,14 +13,14 @@ export const stacks = [{
     items: [
       { name: 'graphql', link: 'https://graphql.org/' },
       { name: 'react-firestore', link: 'https://firebase.google.com/docs/firestore' },
-      { name: 'apollo-client', link: 'https://www.apollographql.com/docs/react/' },
-      { name: 'algolia-react', link: 'https://community.algolia.com/react-instantsearch/' }
+      { name: 'react-apollo', link: 'https://www.apollographql.com/docs/react/' },
+      { name: 'react-algolia', link: 'https://community.algolia.com/react-instantsearch/' }
     ]
   }, {
     name: 'State Management',
     items: [
       { name: 'react-redux', link: 'https://redux.js.org/' },
-      { name: 'apollo-client', link: 'https://www.apollographql.com/docs/react/' }
+      { name: 'react-apollo', link: 'https://www.apollographql.com/docs/react/' }
     ]
   }, {
     name: 'Design / Styling',
@@ -46,7 +46,7 @@ export const stacks = [{
       { name: 'expressjs', link: 'https://expressjs.com/' },
       { name: 'koajs', link: 'https://koajs.com/' },
       { name: 'typescript', link: 'https://www.typescriptlang.org/' },
-      { name: 'overnightJS', link: 'https://github.com/seanpmaxwell/overnight' }
+      { name: 'overnightjs', link: 'https://github.com/seanpmaxwell/overnight' }
     ]
   }, {
     name: 'API / Networking',
@@ -87,9 +87,9 @@ export const stacks = [{
   }, {
     name: 'State Management',
     items: [
-      { name: 'redux', link: 'https://redux.js.org/' },
+      { name: 'react-redux', link: 'https://redux.js.org/' },
       { name: 'react-navigation', link: 'https://reactnavigation.org/' },
-      { name: 'apollo-client', link: 'https://www.apollographql.com/docs/react/' }
+      { name: 'react-apollo', link: 'https://www.apollographql.com/docs/react/' }
     ]
   }, {
     name: 'Design / Styling',

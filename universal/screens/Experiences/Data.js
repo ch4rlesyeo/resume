@@ -64,7 +64,7 @@ export const experiences = [{
     }]
   }
 }, {
-  time: '2019, August',
+  time: 'August, 2019',
   isPresent: true,
   isLast: true,
   company: {

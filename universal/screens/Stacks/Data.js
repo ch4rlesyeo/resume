@@ -99,6 +99,17 @@ export const stacks = [{
     ]
   }]
 }, {
+  name: 'Geolocation / Maps',
+  sections: [{
+    name: 'Google Maps',
+    items: [
+      { name: 'places-api', link: 'https://developers.google.com/maps/documentation/javascript/places' },
+      { name: 'geocoding-api', link: 'https://developers.google.com/maps/documentation/geolocation/intro' },
+      { name: 'directions-api', link: 'https://developers.google.com/maps/documentation/directions/intro' },
+      { name: 'distance-matrix-api', link: 'https://developers.google.com/maps/documentation/distance-matrix/intro' }
+    ]
+  }]
+}, {
   name: 'Cloud Services',
   sections: [{
     name: 'Platforms',

@@ -6,7 +6,7 @@ import { SocialAnchor, SocialIcon } from './Styled'
 const SocialLink = (props) => {
   return (
     <SocialAnchor href={props.href} target='_blank'>
-      <SocialIcon theme='filled' type={props.type} />
+      <SocialIcon theme={props.filled ? 'filled' : 'outlined'} type={props.type} />
     </SocialAnchor>
   )
 }

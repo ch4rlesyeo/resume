@@ -9,9 +9,10 @@ class Contact extends Component {
       <Container>
         <CenterView>
           <Title>Keep in touch</Title>
-          <SocialLink type='facebook' href='https://www.facebook.com/yeo.haw' />
-          <SocialLink type='linkedin' href='https://www.linkedin.com/in/yeo-cheah-haw-9125b6138' />
-          <SocialLink type='mail' href='mailto:yeocheahhaw92@gmail.com' />
+          <SocialLink type='twitter' href='https://twitter.com/charlesyeo92' />
+          <SocialLink type='github' href='https://github.com/ch4rlesyeo' />
+          <SocialLink type='linkedin' filled href='https://www.linkedin.com/in/yeo-cheah-haw-9125b6138' />
+          <SocialLink type='mail' filled href='mailto:yeocheahhaw92@gmail.com' />
         </CenterView>
       </Container>
     )

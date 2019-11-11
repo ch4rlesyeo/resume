@@ -16,6 +16,11 @@ export const CenterView = styled.div`
 export const DetailsView = styled.div`
   width: 512px;
   margin: auto;
+
+  @media screen and (max-width: 555px) {
+    width: 100%;
+    padding: 0 20px;
+  }
 `
 
 export const Name = styled.div`
@@ -44,7 +49,15 @@ export const Navigations = styled.div`
     }
   }
 
-  @media screen and (max-width: 512px) {
+  @media screen and (max-width: 555px) {
     width: 100%;
+    margin-top: 30px;
+    display: block;
+    justify-content: flex-start;
+
+    a {
+      display: block;
+      margin: 20px 0;
+    }
   }
 `

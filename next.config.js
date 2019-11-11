@@ -11,6 +11,9 @@ if (typeof require !== 'undefined') {
 
 module.exports = withSourceMaps(withCss({
   target: 'serverless',
+  env: {
+    gaKey: 'UA-151983770-1'
+  },
   webpack: (config, { isServer }) => {
     if (isServer) {
       const antStyles = /antd\/.*?\/style\/css.*?/

@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { initGA, logPageView } from '@utils/ga'
 import '../Progress'
 import Header from '../Header'
 import { ContentView } from './Styled'
@@ -14,6 +15,10 @@ export default class extends React.Component {
   }
 
   componentDidMount () {
+    initGA()
+
+    logPageView()
+
     this.setState({
       mounted: true
     })

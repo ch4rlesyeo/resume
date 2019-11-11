@@ -33,7 +33,7 @@ export const SocialAnchor = styled.a`
 `
 
 export const SocialIcon = styled(Icon)`
-  margin: 0 30px;
-  font-size: 32px;
+  margin: 0 25px;
+  font-size: 30px;
   color: rgb(150, 160, 170);
 `

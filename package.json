@@ -20,6 +20,7 @@
     "react": "^16.10.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.10.2",
+    "react-ga": "^2.7.0",
     "styled-components": "^4.4.0",
     "webpack-filter-warnings-plugin": "^1.2.1"
   },

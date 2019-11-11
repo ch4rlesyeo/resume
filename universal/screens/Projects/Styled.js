@@ -47,5 +47,5 @@ export const MoreToCome = styled.div`
   text-align: center;
   font-size: 14.5px;
   color: rgb(140, 145, 150);
-  padding-top: 50px;
+  padding: 50px 0;
 `

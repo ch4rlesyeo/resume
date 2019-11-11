@@ -18,7 +18,7 @@ class ProjectsView extends Component {
                 <ProjectName>{project.name}</ProjectName>
               )}
               {!project.ready && (
-                <InProgress><Tag>Working in progress</Tag></InProgress>
+                <InProgress><Tag>Work in progress</Tag></InProgress>
               )}
               <ProjecDesc>{project.description}</ProjecDesc>
             </ProjectItem>

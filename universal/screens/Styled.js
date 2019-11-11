@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   * {
+    -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -18,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     color: black;
     font-family: 'Source Sans Pro' !important;
-    font-size: 15.222px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.1px;
 
@@ -32,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
 
     .ant-btn {
       height: 36px;
-      font-size: 16.222px;
+      font-size: 16px;
       letter-spacing: 0.5px;
     }
   }

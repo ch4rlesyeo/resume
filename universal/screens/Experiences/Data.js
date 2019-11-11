@@ -30,7 +30,7 @@ export const experiences = [{
     link: 'http://yoozrr.com/',
     role: 'Joined as JavaScript Developer',
     descriptions: [{
-      text: 'Develop an online import/export forwarding booking system for a logistic company, to facilitate operations teams from forwarding to liner to improve their operation efficiencies, financing and reduce human errors.'
+      text: 'Develop an online import/export forwarding booking system for a logistic company, to facilitate operations teams from forwarding to liner to improve operation efficiencies, financing and reduce human errors.'
     }, {
       text: 'Built fully in JavaScript using React.JS with Next.JS for front-end and Node.JS with GraphQL and Koa.JS for backend.'
     }, {
@@ -58,7 +58,7 @@ export const experiences = [{
     link: 'https://www.cirosolution.com',
     role: 'Frontend Developer',
     descriptions: [{
-      text: 'Develop an operation management and configuration dashboard to support teams across companies to facilitate and improve operation efficiencies, monitor deployments and their statuses and data visualisations using D3.'
+      text: 'Develop an operation management and configuration dashboard to support teams across companies to facilitate and improve operation efficiencies, monitor deployments and statuses and data visualisations using D3.'
     }, {
       text: 'Built fully in JavaScript using React.JS, Ant design and D3.JS on top of TypeScript.'
     }]
@@ -71,13 +71,13 @@ export const experiences = [{
     name: 'Freelancing',
     role: 'Fullstack Developer',
     descriptions: [{
-      text: 'Develop medical services systems for KPJ hospitals in Johor Bahru to improve and enhance operations and sales.'
+      text: 'Develop booking systems for medical service providers in Johor Bahru to improve and enhance operations and accessibility.'
     }, {
-      text: 'Building mobile apps with React Native and Expo with Typescript. Deploy to Expo for prototyping purpose.'
+      text: 'Built mobile apps with React Native and Expo with Typescript.'
     }, {
-      text: 'Building web apps (Back office) with React with Typescript. Deploy to Zeit for prototyping purpose.'
+      text: 'Built web apps (Back office) with React with Typescript.'
     }, {
-      text: 'Building API services with Node and Typescript using Serverless architeture. Deploy to Zeit for prototyping purpose.'
+      text: 'Built API services with Node and Typescript using Serverless architeture.'
     }]
   }
 }]

@@ -30,7 +30,7 @@ export const PresentDot = styled.div`
 export const DateText = styled.span`
   font-size: 15.222px;
   font-weight: ${props => props.last ? 'bold' : '400'};
-  color: ${props => props.last ? 'black' : 'rgb(140, 145, 150)'};
+  color: ${props => props.last ? 'black' : 'rgb(120, 125, 130)'};
   letter-spacing: 0.2px;
   margin-right: 10px;
 `
@@ -40,8 +40,8 @@ export const CompanyName = styled.a`
   padding: 0px;
   font-size: 17.222px;
   font-weight: 600;
-  color: #151b26;
-  letter-spacing: 0.2px;
+  color: black;
+  letter-spacing: 0.1px;
   text-decoration: none;
 
   &:hover {
@@ -54,7 +54,7 @@ export const CompanyName = styled.a`
 `
 
 export const JobRole = styled.div`
-  font-size: 14.222px;
+  font-size: 15px;
   font-weight: 400;
   color: rgb(130, 130, 130);
   letter-spacing: 0.2px;
@@ -62,11 +62,11 @@ export const JobRole = styled.div`
 `
 
 export const JobDescription = styled.div`
-  font-size: 14.5px;
+  font-size: 16px;
   font-weight: 400;
   color: #151b26;
   padding: 10px 0;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.1px;
 `
 
 export const Spacer = styled.div`

@@ -13,30 +13,34 @@ export const CenterView = styled.div`
   vertical-align: middle;
 `
 
+export const DetailsView = styled.div`
+  width: 512px;
+  margin: auto;
+`
+
 export const Name = styled.div`
-  font-size: 28.222px;
-  font-weight: 600;
+  font-size: 34px;
+  font-weight: 400;
   letter-spacing: 0.3px;
-  text-align: center;
+`
+
+export const Description = styled.div`
+  color: rgb(60, 70, 80);
+  font-size: 17px;
 `
 
 export const Navigations = styled.div`
-  width: 512px;
-  margin: auto;
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
-  padding: 0 30px;
 
   a {
-    color: rgb(160, 170, 180);
-    font-size: 17.222px;
-    /* font-weight: 600; */
-    letter-spacing: 0.3px;
+    color: rgb(26, 115, 232);
+    font-size: 16.5px;
 
     &:hover {
       transition: 0.1s;
-      color: rgb(16, 143, 233);
+      color: rgb(26, 115, 232);
     }
   }
 

@@ -5,9 +5,9 @@ export const Container = styled.div`
   margin: auto;
 
   a {
-    font-size: 14.222px;
+    font-size: 16px;
     font-weight: 600;
-    color: rgba(11, 89, 163, 0.9);
+    color: rgb(26, 115, 232);
     margin-right: 15px;
     display: inline-block;
   }

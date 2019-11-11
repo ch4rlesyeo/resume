@@ -8,7 +8,7 @@ export const Container = styled.div`
   z-index: 1;
   background: white;
   line-height: 50px;
-  box-shadow: 0 0 10px 0 rgba(0, 10, 20, 0.1);
+  box-shadow: 0 0 6px 0 rgba(0, 10, 20, 0.15);
 
   a {
     color: black;
@@ -17,7 +17,7 @@ export const Container = styled.div`
     letter-spacing: 0.3px;
 
     &:hover {
-      color: rgb(16, 143, 233);
+      color: rgb(26, 115, 232);
     }
   }
 `

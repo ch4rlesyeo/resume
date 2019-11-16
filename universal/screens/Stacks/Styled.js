@@ -10,6 +10,7 @@ export const Container = styled.div`
     color: rgb(10, 15, 20);
     margin-right: 20px;
     display: inline-block;
+    white-space: nowrap;
 
     &:hover {
       color: rgb(26, 115, 232);

@@ -61,6 +61,10 @@ export const Navigations = styled.div`
     a {
       display: block;
       padding: 20px 0;
+
+      &:hover {
+        border-bottom-color: rgb(200, 202, 204);
+      }
     }
   }
 `

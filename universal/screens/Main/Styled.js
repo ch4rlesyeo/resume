@@ -40,12 +40,15 @@ export const Navigations = styled.div`
   justify-content: space-between;
 
   a {
-    color: rgb(26, 115, 232);
-    font-size: 16.5px;
+    color: rgb(110, 115, 120);
+    font-size: 15.222px;
+    padding: 3px 0;
+    border-bottom: 1px solid rgb(200, 202, 204);
 
     &:hover {
       transition: 0.1s;
       color: rgb(26, 115, 232);
+      border-bottom-color: rgb(26, 115, 232);
     }
   }
 
@@ -57,7 +60,7 @@ export const Navigations = styled.div`
 
     a {
       display: block;
-      margin: 20px 0;
+      padding: 20px 0;
     }
   }
 `

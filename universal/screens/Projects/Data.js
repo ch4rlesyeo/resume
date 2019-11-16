@@ -7,7 +7,7 @@ export const projects = [{
   name: 'Buddy design (React)',
   link: '',
   ready: false,
-  description: 'UI components library for React (web) and React Native (mobile). A simple, elegant and practical design, inspired by Uber and Airbnb designs.'
+  description: 'Inspired by Uber and Airbnb designs, a simple, elegant and practical UI components library for React (web) and React Native (mobile).'
 }, {
   name: 'QuerioJS',
   link: '',

@@ -5,11 +5,15 @@ export const Container = styled.div`
   margin: auto;
 
   a {
-    font-size: 16px;
-    font-weight: 600;
-    color: rgb(26, 115, 232);
-    margin-right: 15px;
+    font-size: 15.222px;
+    font-weight: 400;
+    color: rgb(10, 15, 20);
+    margin-right: 20px;
     display: inline-block;
+
+    &:hover {
+      color: rgb(26, 115, 232);
+    }
   }
 
   @media screen and (max-width: 512px) {

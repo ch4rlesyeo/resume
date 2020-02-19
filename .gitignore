@@ -1,0 +1,7 @@
+
+## ignore folder , file
+node_modules
+.next
+backend
+bundles
+

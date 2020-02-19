@@ -1,24 +1,21 @@
 /* eslint-disable */
+const withLess = require('@zeit/next-less')
+const lessToJS = require('less-vars-to-js')
+const fs = require('fs')
 const path = require('path')
-const withCss = require('@zeit/next-css')
-const withSourceMaps = require('@zeit/next-source-maps')
 const FilterWarningsPlugin = require('webpack-filter-warnings-plugin')
 
-// fix: prevents error when .css files are required by node
-if (typeof require !== 'undefined') {
-  require.extensions['.css'] = (file) => { }
-}
+const themeVariables = lessToJS(fs.readFileSync(path.resolve(__dirname, './styles/theme.less'), 'utf8'));
 
-module.exports = withSourceMaps(withCss({
-  target: 'serverless',
-  env: {
-    gaKey: 'UA-151983770-1'
+module.exports = withLess({
+  lessLoaderOptions: {
+    javascriptEnabled: true,
+    modifyVars: themeVariables, // make your antd custom effective
   },
   webpack: (config, { isServer }) => {
     if (isServer) {
-      const antStyles = /antd\/.*?\/style\/css.*?/
+      const antStyles = /antd\/.*?\/style.*?/
       const origExternals = [...config.externals]
-
       config.externals = [
         (context, request, callback) => {
           if (request.match(antStyles)) return callback()
@@ -36,18 +33,6 @@ module.exports = withSourceMaps(withCss({
         use: 'null-loader',
       })
     }
-
-    config.plugins.push(
-      new FilterWarningsPlugin({
-        exclude: /mini-css-extract-plugin[^]*Conflicting order between:/,
-      })
-    )
-
-    config.resolve.alias['@utils'] = path.resolve(__dirname, 'universal/utils')
-    config.resolve.alias['@hooks'] = path.resolve(__dirname, 'universal/hooks')
-    config.resolve.alias['@screens'] = path.resolve(__dirname, 'universal/screens')
-    config.resolve.alias['@components'] = path.resolve(__dirname, 'universal/components')
-
     return config
-  }
-}))
+  },
+})

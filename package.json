@@ -1,12 +1,17 @@
 {
+  "name": "charles-resume",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "clean": "rm -rf .next && rm -rf backend",
+    "export": "npm run clean && NEXT_EXPORT=true next build && NEXT_EXPORT=true next export -o backend"
   },
   "dependencies": {
     "antd": "^3.26.11",
     "next": "^9.2.2",
+    "next-offline": "^5.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "styled-components": "^5.0.1"

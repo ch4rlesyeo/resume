@@ -36,6 +36,7 @@ export default class MyDocument extends Document {
         <Head>
           <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet" />
           <link rel="icon" type="image/png" href="/static/favicon.ico" />
+          <link rel="manifest" href="/manifest.json" />
         </Head>
         <body>
           <Main />

@@ -12,7 +12,7 @@ const Container = styled.div`
 `;
 
 const MainScreen = () => {
-  return <Container>{`I'm Charles`}</Container>;
+  return <Container>Next PWA</Container>;
 };
 
 export default MainScreen;

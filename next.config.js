@@ -18,16 +18,6 @@ module.exports = withOffline({
       }
     ]
   },
-  experimental: {
-    async rewrites() {
-      return [
-        {
-          source: '/service-worker.js',
-          destination: '/_next/static/service-worker.js'
-        }
-      ];
-    }
-  },
   webpack: (config) => {
     config.resolve.alias['@utils'] = path.resolve(__dirname, 'universal/utils');
     config.resolve.alias['@screens'] = path.resolve(__dirname, 'universal/screens');

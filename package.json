@@ -5,8 +5,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "serve": "cd backend && serve -p 3000",
     "clean": "rm -rf .next && rm -rf backend",
-    "export": "npm run clean && NEXT_EXPORT=true next build && NEXT_EXPORT=true next export -o backend"
+    "prod": "npm run clean && NEXT_EXPORT=true next build && NEXT_EXPORT=true next export -o backend"
   },
   "dependencies": {
     "antd": "^3.26.11",
